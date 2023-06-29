@@ -1,6 +1,22 @@
 -- import: fastn-community.github.io/business-card/docs
 
-<repo_name>
+;; home-card component arguments (with default values) ----------------------
+;; caption name:
+;; string package-name: business-card
+;; string package-full-name: fastn-community.github.io/business-card
+;; string license-url: https://github.com/fastn-community/business-card/blob/main/LICENSE
+;; module c: business-card
+;; optional string company-name:
+;; optional string company-slogan:
+;; optional ftd.image-src qr-code:
+;; optional string title:
+;; optional string phone-no:
+;; optional string email:
+;; optional string address:
+;; optional ftd.image-src logo: $business-card.default-card-logo
+;; optional ftd.image-src avatar:
+;; optional string github:
+;; --------------------------------------------------------------------------
 
 -- docs.home-card: <user_name>
 package-name: <repo_name>
