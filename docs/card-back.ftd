@@ -1,0 +1,10 @@
+-- import: fastn-community.github.io/business-card-template
+-- import: fastn-community.github.io/business-card/docs
+
+-- docs.how-to-use-card-back:
+package-name: business-card-template
+package-full-name: fastn-community.github.io/business-card-template
+license-url: https://github.com/fastn-community/business-card-template/blob/main/LICENSE
+github: https://github.com/fastn-community/business-card-template
+sample-code: $business-card-template.card-back-sample-code
+company-slogan: If you can type, you can code
