@@ -18,6 +18,7 @@
 ;; optional ftd.image-src avatar:
 ;; optional string github:
 ;; string sample-code:
+;; optional string website
 ;; --------------------------------------------------------------------------
 
 -- docs.how-to-use-card-back:
