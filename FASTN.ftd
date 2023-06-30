@@ -14,9 +14,9 @@ favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
 
 -- fastn.sitemap:
 
-# Home: /
+# Home: index.html
 
-- Overview: /
+- Overview: index.html
 - Documentation: /how-to-use-card/
   document: /docs/card.ftd
 
