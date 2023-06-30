@@ -21,8 +21,6 @@ Explore websites and projects that have utilized this component/template
 **[here](https://fastn-community.github.io/business-card/)** for
 inspiration.
 
-## [Changelog](Changelog.md)
-
 ## fastn and Curious?
 
 Discover more of fastn here.
