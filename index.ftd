@@ -1,5 +1,6 @@
 -- import: fastn-community.github.io/business-card/docs
 -- import: <user_name>.github.io/<repo_name>
+-- import: fastn-community.github.io/business-card
 
 ;; home-card component arguments (with default values) ----------------------
 ;; caption name:
@@ -17,10 +18,12 @@
 ;; optional ftd.image-src logo: $business-card.default-card-logo
 ;; optional ftd.image-src avatar:
 ;; optional string github:
-;; optional string website
+;; optional string website:
 ;; --------------------------------------------------------------------------
 
--- docs.home-card: <user_name>
+
+
+-- docs.home-card: $business-card.user-name
 package-name: <repo_name>
 package-full-name: <user_name>.github.io/<repo_name>
 license-url: https://github.com/<user_name>/<repo_name>/blob/main/LICENSE
@@ -33,7 +36,7 @@ github: https://github.com/<user_name>/<repo_name>
 ;; ---------------- DEFINE YOUR CARD COMPONENTS -----------------------
 ;; Implement your card and card-back components below
 
-/-- component card:
+/-- component front:
 caption name:
 optional string company-name:
 optional string title:
@@ -48,7 +51,7 @@ optional string website:
 
 ;; <YOUR IMPLEMENTATION HERE>
 
-/-- end: card
+/-- end: front
 
 
 
@@ -59,7 +62,7 @@ optional string website:
 
 
 
-/-- component card-back:
+/-- component back:
 optional caption name:
 optional string company-name:
 optional string title:
@@ -74,7 +77,7 @@ optional string website:
 
 ;; <YOUR IMPLEMENTATION HERE>
 
-/-- end: card-back
+/-- end: back
 
 
 
@@ -84,24 +87,20 @@ optional string website:
 
 ;; ------------------------- VARIABLES --------------------------
 
--- string card-sample-code:
+-- string front-sample-code:
 
-\-- import: <user_name>.github.io/<repo_name> as b
+\-- import: <user_name>.github.io/<repo_name>
 
-\-- ftd.image-src default-card-logo: $assets.files.assets.ipsum-logo.svg
-
-\-- b.card: <user_name>
+\-- <repo_name>.front: <user_name>
 title: Software Developer
 email: <user_name>@xyz.com
 address: 123 Anywhere, Any City
-logo: $default-card-logo
+logo: $assets.files.assets.ipsum-logo.svg
 
--- string card-back-sample-code:
+-- string back-sample-code:
 
-\-- import: <user_name>.github.io/<repo_name> as b
+\-- import: <user_name>.github.io/<repo_name>
 
-\-- ftd.image-src default-card-logo: $assets.files.assets.ipsum-logo.svg
-
-\-- b.card-back:
-logo: $default-card-logo
+\-- <repo_name>.back:
+logo: $assets.files.assets.ipsum-logo.svg
 company-slogan: If you can type you can code
