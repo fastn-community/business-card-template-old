@@ -1,6 +1,6 @@
 # Overview
 
-[Business Card](https://fastn-community.github.io/business-card/) will help you create your beautiful business card in no time.
+[<repo_name>](https://<user_name>.github.io/<repo_name>) will help you create your beautiful business card in no time.
 
 It provides out-of-the-box documentation features that can be used to create any
 kind of business card of your choice.
@@ -14,6 +14,8 @@ kind of business card of your choice.
 [Click here](https://fastn-community.github.io/business-card/) to learn how to use this template.
 
 # [Dive into the Docs](https://fastn-community.github.io/business-card/)
+
+## Created using [fastn](https://fastn.com/) - [Business Card Template](https://github.com/fastn-community/business-card-template)
 
 # See it in Action!
 
