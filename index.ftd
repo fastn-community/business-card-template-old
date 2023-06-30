@@ -98,8 +98,6 @@ logo: $default-card-logo
 
 \-- ftd.image-src default-card-logo: $assets.files.assets.ipsum-logo.svg
 
-\-- b.card-back: <user_name>
-title: Software Developer
-email: <user_name>@xyz.com
-address: 123 Anywhere, Any City
+\-- b.card-back:
 logo: $default-card-logo
+company-slogan: If you can type you can code
