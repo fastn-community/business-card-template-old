@@ -1,4 +1,5 @@
 -- import: fastn-community.github.io/business-card/docs
+-- import: <user_name>.github.io/<repo_name>
 
 ;; home-card component arguments (with default values) ----------------------
 ;; caption name:
@@ -16,6 +17,7 @@
 ;; optional ftd.image-src logo: $business-card.default-card-logo
 ;; optional ftd.image-src avatar:
 ;; optional string github:
+;; optional string website
 ;; --------------------------------------------------------------------------
 
 -- docs.home-card: <user_name>
