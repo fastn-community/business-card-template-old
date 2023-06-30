@@ -35,4 +35,4 @@ jobs:
   call-deploy-workflow:
     permissions: write-all
     needs: [ rename-project ]
-    uses: ./.github/workflows/site-deploy.yml
+    uses: ./.github/workflows/deploy.yml
