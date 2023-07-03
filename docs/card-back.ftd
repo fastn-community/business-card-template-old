@@ -1,6 +1,5 @@
 -- import: <user_name>.github.io/<repo_name>
 -- import: fastn-community.github.io/business-card/docs
--- import: fastn-community.github.io/business-card
 
 ;; how-to-use-card-back component arguments (with default values) ------------
 ;; optional caption name:
@@ -22,7 +21,7 @@
 ;; optional string website
 ;; --------------------------------------------------------------------------
 
--- docs.how-to-use-card-back: $business-card.user-name
+-- docs.how-to-use-card-back: John Doe
 package-name: <repo_name>
 package-full-name: <user_name>.github.io/<repo_name>
 license-url: https://github.com/<user_name>/<repo_name>/blob/main/LICENSE
