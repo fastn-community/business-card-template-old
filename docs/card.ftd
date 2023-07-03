@@ -1,6 +1,8 @@
 -- import: <user_name>.github.io/<repo_name>
 -- import: fastn-community.github.io/business-card/docs
 
+-- $site-doc.copyright-info: Copyright © 2023 - [<user_name> ](https://<user_name>.github.io/<repo_name>)
+
 ;; how-to-use-card component arguments (with default values) --------------
 ;; caption name:
 ;; string package-name: business-card
