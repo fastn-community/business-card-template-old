@@ -33,7 +33,7 @@ title: Software Developer
 phone-no: +123-4567890
 email: <user_name>@xyz.com
 address: 123 Anywhere, Any City
-github: https://github.com/<user_name>/<repo_name>
+github: <user_name>.github.io/<repo_name>
 
 ;; ---------------- DEFINE YOUR CARD COMPONENTS -----------------------
 ;; Implement your card and card-back components below
